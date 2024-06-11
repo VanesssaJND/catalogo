@@ -16,6 +16,8 @@ public class ProductImage {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
+    private String name;
+    private String type;
     @Lob
     byte[]productImage;
 
